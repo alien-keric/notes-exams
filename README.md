@@ -140,7 +140,7 @@ hydra -v -V -u -L users.txt -P passwords.txt -t 1 -u $ip ssh
 
 ### 9. Analyze Network Traffic Surge in CEHORG Datacenter
 - **Task**: Study network traffic logs due to increased incoming traffic from multiple sources in CEHORG's datacenter.
-
+answer: 3
 
 ## 13. The incident response team has intercepted an image file from a communication that is supposed to have just text. You are asked to investigate the file and check if it contains any hidden information. Find out the information hidden in the file. Note: The vacation.bmp file is located at C:\Users\Admin\Documents in EH Workstation – 2 machine. (Format: AAANNNNNNN)
 answer: USD1234567
