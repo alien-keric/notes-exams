@@ -68,3 +68,23 @@ aircrack-ng test.pcap -w wordlists.txt
 ```
 Online:https://medium.com/@roshanmsk/decrypting-a-text-file-using-veracrypt-a3bf924638f2
 ```
+
+## searching for geolcations
+```
+1. https://www.iplocation.net/ip-lookup
+```
+
+
+## enumeration with gpt
+```
+Perform a DNS enumeration on www.certifiedhacker.com and find out the name servers used by the domain. (Format: aaN.aaaaaaaa.aaa, aaN.aaaaaaaa.aaa)
+
+Tools:
+nslookup -type=ns certifiedhacker.com
+dig ns certifiedhacker.com +short
+
+Example of output:
+ns1.certifiedhacker.com
+ns2.certifiedhacker.com
+```
+
